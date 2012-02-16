@@ -1,0 +1,66 @@
+a, abbr, acronym, address, applet, article, aside, audio,
+b, blockquote, big, body,
+center, canvas, caption, cite, code, command,
+datalist, dd, del, details, dfn, dl, div, dt, 
+em, embed,
+fieldset, figcaption, figure, font, footer, form, 
+h1, h2, h3, h4, h5, h6, header, hgroup, html,
+i, iframe, img, ins,
+kbd, 
+keygen,
+label, legend, li, 
+meter,
+nav,
+object, ol, output,
+p, pre, progress,
+q, 
+s, samp, section, small, span, source, strike, strong, sub, sup,
+table, tbody, tfoot, thead, th, tr, tdvideo, tt,
+u, ul, 
+var { background: transparent; border: 0 none; font-size: 100%; margin: 0; padding: 0; vertical-align: baseline }
+
+aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {display: block}
+
+body { background:#30A0D2; font:normal normal 14px "Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","Meiryo","メイリオ","ＭＳ Ｐゴシック",sans-serif; padding-top:72px; }
+
+body>header { background:#30A0D2; position:fixed; height:72px; top:0; left:0; right:0; z-index:99; opacity:0.95; border-bottom:2px solid rgba(255,255,255,0.4); }
+body>header h1 { background:url(images/logo.png); width:220px; height:50px; text-indent:-9999px; position:absolute; top:11px; left:0; }
+body>header ul { position:absolute; top:11px; right:0; }
+body>header li { display:inline-block; width:150px; height:50px; text-indent:-9999px; }
+body>header li>a { display:block; width:100%; height:100%; }
+body>header li.reasons { background:url(images/navi-reasons.png); }
+body>header li.spaces { background:url(images/navi-spaces.png); }
+body>header li.aboutus { background:url(images/navi-aboutus.png); }
+
+body>section div { height:300px; background:url(images/billboard.png); }
+body>section div p { text-indent:-9999px; }
+body>section div a.findus { position:absolute;
+	display:block; text-indent:-9999px; background:url(images/findus.png); width:150px; height:45px; bottom:20px; right:20px; }
+
+body>section,
+body>article { background:url(images/border.png) repeat-x bottom; }
+body>article { border-top:13px solid #FFE352; background-color:#FFF; padding-bottom:20px; position:relative; }
+body>article div.more { position:absolute; bottom:0; width:100%; height:84px; background:url(images/more.png); text-align:center; cursor:pointer; }
+body>article div.more span { display:inline-block; margin-top:25px; padding:7px 20px; border-radius:20px; background:#FFF; color:#666; box-shadow: 0px 0px 5px #444; font-weight:bold; font-size:120%; }
+body>article iframe { margin:10px; box-shadow: 0px 1px 5px #444; border-radius:10px; }
+body>article h2 { width:368px; text-indent:-9999px; }
+body>article#reasons h2 { height:178px; background:url(images/h2-reasons.png); }
+body>article#spaces h2 { height:178px; background:url(images/h2-spaces.png); }
+body>article#aboutus h2 { height:89px; background:url(images/h2-aboutus.png); }
+body>article p { padding: 10px 30px; font-size:120%; line-height:1.6em; color:#555; }
+
+body>article#reasons p { width:160px; margin:10px 5px 0; padding:5px 7px 55px; background:#FFF8E5; box-shadow: 0px 1px 3px #444; font-size:100%; position:relative; }
+body>article#reasons p img { position:absolute; bottom:5px; right:5px; width:48px; height:48px; }
+body>article#reasons { height:500px; overflow:hidden; }
+
+body>footer {  }
+body>footer div { background:url(images/footer.png) no-repeat center top; height:180px;}
+body>footer div p { padding:35px 10px; color:#FFF; }
+
+body>header div,
+body>section div,
+body>article div,
+body>footer div { position:relative; width:920px; margin:0 auto }
+
+p:after { content:"."; display:block; clear:both; visibility:hidden; line-height:0; height:0 }
